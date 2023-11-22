@@ -110,6 +110,8 @@ def get_summary_for_hyperparams(model, args_list, device="cpu", loader=None, cri
     print(args_list)
     if loader is not None:
         print("Using custom loader, len: ", len(loader.dataset))
+    else:
+        print("Using default MNIST loader")
     chain_config = ChainConfig(
         num_chains=args_list['num_chains'],
         num_draws=args_list['num_draws'],

@@ -3,7 +3,10 @@ nina-repo/
 minesweeper/
 legacy*
 *.pth
+*.pt
 data/
+.DS_Store
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

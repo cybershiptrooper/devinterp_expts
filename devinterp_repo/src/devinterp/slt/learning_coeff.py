@@ -115,4 +115,5 @@ def plot_learning_coeff_trace(trace: pd.DataFrame, **kwargs):
     plt.ylabel(r"$L_n(w)$")
     plt.title("Learning Coefficient Trace")
     plt.legend()
+    plt.gcf().set_size_inches(16, 8)
     plt.show()
